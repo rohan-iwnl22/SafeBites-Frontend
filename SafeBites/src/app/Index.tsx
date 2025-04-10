@@ -1,12 +1,5 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import Home from './home';
 
-const index = () => {
-  return (
-    <View>
-      <Text>index</Text>
-    </View>
-  )
+export default function Index() {
+  return <Home />;
 }
-
-export default index
